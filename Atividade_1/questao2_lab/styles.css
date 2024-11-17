@@ -1,0 +1,59 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1e3a8a; /* Fundo azul */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  /* Estilo dos cards de perfil */
+  .profile-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0;
+  }
+  
+  .profile-card:last-child {
+    border-bottom: none;
+  }
+  
+  /* Estilo da imagem do perfil */
+  .profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Informações do perfil */
+  .profile-info h3 {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 0.3rem;
+  }
+  
+  .profile-info p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
